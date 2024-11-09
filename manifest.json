@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "test v3",
+  "description": "Basic native messaging in V3",
+  "version": "2.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "permissions": ["tabs", "nativeMessaging", "storage", "tts"],
+  
+  "content_scripts": [
+    {
+      "js": ["./content.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_end"
+    }
+  ]
+}

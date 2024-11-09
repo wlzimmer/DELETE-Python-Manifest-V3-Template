@@ -1,0 +1,9 @@
+{ 
+  "name": "com.zimmer.testv3", 
+  "description": "Test Manifest V3", 
+  "path": "testv3.bat", 
+  "type": "stdio", 
+  "allowed_origins": [ 
+"chrome-extension://cnoinlkkfphaiikgdcdbfanacdhjacpo/" 
+  ] 
+} 
